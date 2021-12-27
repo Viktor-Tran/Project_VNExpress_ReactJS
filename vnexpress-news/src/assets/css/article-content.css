@@ -1,0 +1,23 @@
+div.wrapper-content{
+    padding: 10px;
+    background: #f7f7f7;
+    flex-grow: 1;
+}
+.content-title{
+    font-size: 20px;
+    font-weight: 600;
+}
+p.content{
+    max-width: 140px;
+    color: black;
+}
+.content-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.content-footer--left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

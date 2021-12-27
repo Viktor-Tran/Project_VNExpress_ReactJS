@@ -1,0 +1,24 @@
+.section-menu {
+  background: white;
+}
+.ant-dropdown-trigger {
+  padding: 0 5px;
+  color: black;
+  font-weight: 800;
+}
+.ant-row .gutter-row {
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 1120px) {
+  .section-menu{
+    display: none;
+  }
+  .ant-dropdown-trigger {
+    font-size: 10px;
+  }
+  .divider--bottom {
+    display: none !important;
+  }
+}

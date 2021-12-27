@@ -1,0 +1,52 @@
+section.footer {
+  display: flex;
+  flex-direction: column;
+}
+.footer-top {
+  display: flex;
+  flex-direction: row;
+}
+.ant-menu.menu-footer {
+  display: flex;
+  flex-flow: column wrap;
+  max-height: 280px;
+}
+.footer-top--menu {
+  flex-grow: 3;
+}
+.footer-top-advertisement .area-advertisement-action {
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+}
+.area-contact {
+  margin-top: 10px;
+}
+.area-contact--content button:last-child {
+  display: block;
+}
+.area-hotline--content__phone,
+.area-hotline--content__address {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.footer-bottom--header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.social-media > button {
+    margin: 5px;
+}
+.social-media > a {
+    color: gray;
+}
+.footer-bottom--info{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    column-gap: 10px;
+    margin-top: 20px;
+    font-size: 18px;
+}
